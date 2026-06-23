@@ -1,0 +1,47 @@
+:root{
+    --bs-danger: #f25019;
+    --bs-dangerclick: rgb(201, 84, 5);
+}
+.background{
+    background: linear-gradient(135deg, #FFD1B0,#FFE8D9) ;
+    max-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+label{
+    font-weight: 600;
+}
+.login-bg{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    border-color: #FEDDC6;
+    border-radius: 1rem;
+    background-position: center;
+    width: 420px;
+    max-width: 100%;
+}
+.form-control{
+    border-color: #AE4700;
+    box-shadow:0 0 8px rgba(174,71,0,0.3);
+}
+.form-control:focus{
+    border-color: #AE4700;
+    box-shadow:0 0 8px rgba(174,71,0,0.3);
+}
+.button{
+    background-color: var(--bs-danger) !important;
+    border-radius: var(--bs-danger) !important;
+    color: white;
+    border-radius: none;
+}
+.button.button:hover,
+.button.button:focus{
+    background-color: var(--bs-dangerclick) !important;
+    border-color: var(--bs-dangerclick) !important;
+    color: white;
+    border-radius: none;
+}
+.f-p{
+    color: #AE4700;
+    font-size: 12px;
+}
