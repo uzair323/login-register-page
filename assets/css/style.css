@@ -53,3 +53,18 @@ label {
     color: #AE4700;
     font-size: 12px;
 }
+@media(max-width:576px){
+    .background {
+    background: linear-gradient(135deg, #FFD1B0, #FFE8D9);
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.f-p {
+    color: #AE4700;
+    font-size: 10px;
+}
+.r-me{
+    font-size: 10px;
+}
+}
